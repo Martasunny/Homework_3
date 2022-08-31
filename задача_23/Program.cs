@@ -3,13 +3,13 @@
     Console.WriteLine("введите число N: ");
     int N = Convert.ToInt32(Console.ReadLine());
     int i = 1;
-    if (N <=0)
+    if (N <= 0)
     {
         Console.Write("введите число больше 0");
     }
-    else while ( i <= N)
+    else while (i <= N)
     {
-        Console.WriteLine(Math.Pow(i,3));
+        Console.WriteLine(Math.Pow(i, 3));
         i++;
     }
     
